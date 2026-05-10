@@ -1,0 +1,77 @@
+- name: Vital
+  author: Matt Tytel
+  type: Synth
+  url: https://vital.audio/
+  description: Spectral warping wavetable synthesizer.
+
+- name: Valhalla Supermassive
+  author: Valhalla DSP
+  type: Effects
+  url: https://valhalladsp.com/shop/reverb/valhalla-supermassive/
+  description: Massive delays and reverbs.
+
+- name: Surge XT
+  author: Surge Synth Team
+  type: Synth
+  url: https://surge-synthesizer.github.io/
+  description: Extremely powerful open-source hybrid synthesizer.
+
+- name: TDR Nova
+  author: Tokyo Dawn Records
+  type: Effects
+  url: https://www.tokyodawn.net/tdr-nova/
+  description: Parallel dynamic equalizer.
+
+- name: OTT
+  author: Xfer Records
+  type: Effects
+  url: https://xferrecords.com/freeware
+  description: Multiband upwards/downwards compressor.
+
+- name: Dexed
+  author: Digital Suburban
+  type: Synth
+  url: https://asb2m10.github.io/dexed/
+  description: FM synthesizer modeled on the Yamaha DX7.
+
+- name: Artists in DSP
+  author: Artists in DSP
+  type: Effects
+  url: https://artistsindsp.gumroad.com/?recommended_by=library
+  description: Collection of audio plugins and tools.
+
+- name: Freesound
+  author: Freesound Project
+  type: Samples
+  url: https://freesound.org/
+  description: Collaborative database of Creative Commons licensed audio samples.
+
+- name: TAL-Chorus-LX
+  author: TAL Software
+  type: Effects
+  url: https://tal-software.com/products/tal-chorus-lx
+  description: Juno-60 chorus emulation.
+
+- name: TAL-Reverb-4
+  author: TAL Software
+  type: Effects
+  url: https://tal-software.com/products/tal-reverb-4
+  description: High quality plate reverb with a vintage 80's character.
+
+- name: TAL-NoiseMaker
+  author: TAL Software
+  type: Synth
+  url: https://tal-software.com/products/tal-noisemaker
+  description: Virtual analog synthesizer with a great sound and low CPU usage.
+
+- name: TAL-Vocoder
+  author: TAL Software
+  type: Effects
+  url: https://tal-software.com/products/tal-vocoder
+  description: Vintage vocoder emulation with 11 bands.
+
+- name: Saucillator
+  author: Matt Feury
+  type: Synth
+  url: https://play.google.com/store/apps/details?id=com.mattfeury.saucillator.android
+  description: Digital synthesizer for iOS/Android.

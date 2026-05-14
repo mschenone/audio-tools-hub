@@ -28,7 +28,7 @@ title: Free Audio Plugins Directory
 {% endfor %}
 </div>
 
-<div class="contribute-section" style="margin-top: 3rem; padding: 1.5rem; background-color: #f8f9fa; border-radius: 8px; text-align: center;">
+<div class="contribute-section" style="margin-top: 3rem; padding: 1.5rem; background-color: var(--card-bg); border: 1px solid var(--card-border); border-radius: 8px; text-align: center;">
   <h3>🤝 Help Us Grow</h3>
   <p>Notice a broken link or know of a great free plugin that's missing from the list?</p>
   <p>Contributions are extremely welcome! You can help keep this directory up-to-date by submitting a Pull Request or opening an Issue on our GitHub repository to add new plugins or fix URLs.</p>

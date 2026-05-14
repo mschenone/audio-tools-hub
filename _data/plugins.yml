@@ -127,7 +127,7 @@
 - name: NI Komplete Start
   author: Native Instruments
   type: Bundle
-  url: http://tinyurl.com/bdcv9w8f
+  url: https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/
   description: Free production suite from Native Instruments.
   os:
     - Windows

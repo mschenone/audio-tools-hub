@@ -207,3 +207,30 @@
     - Windows
     - macOS
     - Linux
+- name: AudioKit Synth One
+  author: AudioKit Pro
+  type: Synth
+  url: https://audiokitpro.com/synth/
+  description: Completely free, open-source iPad synthesizer.
+  os:
+    - iOS
+- name: RoughRider 3
+  author: Audio Damage
+  type: Effects
+  url: https://www.audiodamage.com/pages/free-downloads
+  description: One of the most popular free compressor plugins on the planet.
+  os:
+    - Windows
+    - macOS
+    - Linux
+    - iOS
+- name: Chow Tape Model
+  author: Chowdhury DSP
+  type: Effects
+  url: https://chowdsp.com/products.html
+  description: Physical modeling of an analog tape machine.
+  os:
+    - Windows
+    - macOS
+    - Linux
+    - iOS

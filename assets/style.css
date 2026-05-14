@@ -1,21 +1,145 @@
+:root {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --card-bg: #1e1e1e;
+    --card-border: #333;
+    --accent-color: #00d2ff;
+    --accent-hover: #3a86ff;
+    --muted-text: #888;
+}
+
 body {
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
     line-height: 1.6;
-    max-width: 800px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1000px;
     margin: 0 auto;
     padding: 2rem;
-    color: #333;
 }
-a {
-    color: #0066cc;
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--card-border);
 }
-ul {
-    list-style: none;
-    padding: 0;
+
+h1, h2, h3 {
+    color: #fff;
+    font-weight: 600;
 }
-li {
+
+/* Search Bar */
+.search-container {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#searchInput {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    color: var(--text-color);
+    border-radius: 30px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#searchInput:focus {
+    border-color: var(--accent-color);
+}
+
+/* Grid & Cards */
+.plugin-section {
+    margin-bottom: 3rem;
+}
+
+.plugin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.plugin-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.plugin-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    border-color: #555;
+}
+
+.plugin-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.plugin-author {
+    color: var(--muted-text);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.plugin-desc {
+    flex-grow: 1;
+    font-size: 0.95rem;
     margin-bottom: 1.5rem;
-    padding: 1rem;
-    border: 1px solid #eee;
+}
+
+.plugin-type-badge {
+    display: inline-block;
+    background-color: rgba(0, 210, 255, 0.1);
+    color: var(--accent-color);
+    padding: 3px 8px;
     border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    align-self: flex-start;
+}
+
+.btn-download {
+    display: inline-block;
+    background-color: transparent;
+    color: var(--accent-color);
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 500;
+}
+
+.btn-download:hover {
+    background-color: var(--accent-color);
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--card-border);
+    color: var(--muted-text);
+    font-size: 0.9rem;
 }

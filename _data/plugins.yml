@@ -234,3 +234,12 @@
     - macOS
     - Linux
     - iOS
+- name: Moon Echo
+  author: AudioThing
+  type: Effects
+  url: https://www.audiothing.net/effects/moon-echo/
+  description: Free moon bounce and experimental delay plugin.
+  os:
+    - Windows
+    - macOS
+    - Linux

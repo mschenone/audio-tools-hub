@@ -217,7 +217,7 @@
 - name: RoughRider 3
   author: Audio Damage
   type: Effects
-  url: https://www.audiodamage.com/pages/free-downloads
+  url: https://www.audiodamage.com/pages/free-and-legacy
   description: One of the most popular free compressor plugins on the planet.
   os:
     - Windows

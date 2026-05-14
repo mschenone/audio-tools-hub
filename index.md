@@ -28,6 +28,13 @@ title: Free Audio Plugins Directory
 {% endfor %}
 </div>
 
+<div class="contribute-section" style="margin-top: 3rem; padding: 1.5rem; background-color: #f8f9fa; border-radius: 8px; text-align: center;">
+  <h3>🤝 Help Us Grow</h3>
+  <p>Notice a broken link or know of a great free plugin that's missing from the list?</p>
+  <p>Contributions are extremely welcome! You can help keep this directory up-to-date by submitting a Pull Request or opening an Issue on our GitHub repository to add new plugins or fix URLs.</p>
+  <a href="https://github.com/m/audio-tools-hub" class="btn-download" target="_blank" rel="noopener noreferrer" style="background-color: #333;">Contribute on GitHub</a>
+</div>
+
 <script>
 document.getElementById('searchInput').addEventListener('input', function(e) {
   const searchTerm = e.target.value.toLowerCase();

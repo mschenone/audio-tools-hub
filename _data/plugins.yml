@@ -75,3 +75,81 @@
   type: Synth
   url: https://play.google.com/store/apps/details?id=com.mattfeury.saucillator.android
   description: Digital synthesizer for iOS/Android.
+
+- name: Deelay
+  author: Sixth Sample
+  type: Effects
+  url: https://sixthsample.com/deelay/
+  description: Free delay plugin.
+
+- name: Channe V
+  author: Analog Obsession
+  type: Effects
+  url: https://analogobsession.com/
+  description: Analog modeled channel strip.
+
+- name: NI Komplete Start
+  author: Native Instruments
+  type: Bundle
+  url: http://tinyurl.com/bdcv9w8f
+  description: Free production suite from Native Instruments.
+
+- name: Spitfire Free Orchestra
+  author: Spitfire Audio
+  type: Samples
+  url: http://tinyurl.com/3c8wtj8r
+  description: Free orchestral sample library.
+
+- name: Youlean Loudness Meter
+  author: Youlean
+  type: Effects
+  url: https://youlean.co/youlean-loudness-meter/
+  description: Loudness measurement plugin.
+
+- name: SPAN
+  author: Voxengo
+  type: Effects
+  url: https://www.voxengo.com/product/span/
+  description: Real-time FFT audio spectrum analyzer.
+
+- name: Flux Mini 2
+  author: Caelum Audio
+  type: Effects
+  url: https://www.caelumaudio.com/CaelumAudio/?Page=FluxMini2
+  description: Modulation effect plugin.
+
+- name: Panflow
+  author: Audiomodern
+  type: Effects
+  url: https://audiomodern.com/shop/plugins/panflow/
+  description: Panning modulator.
+
+- name: Vinyl Guitar 2
+  author: Echo Sound Works
+  type: Synth
+  url: https://www.echosoundworks.com/vinyl-guitar-2
+  description: Characterful guitar instrument.
+
+- name: Arturia Synth Bundle
+  author: Arturia
+  type: Bundle
+  url: http://tinyurl.com/mr3cj5cr
+  description: Free synths from Arturia.
+
+- name: Slate Audio Free Plugins
+  author: Slate Digital
+  type: Bundle
+  url: https://slatedigital.com/our-plugins-jan-24/
+  description: Free plugins from Slate Digital.
+
+- name: Vaults
+  author: The Crow Hill Company
+  type: Samples
+  url: https://thecrowhillcompany.com/vaults-free-plugin/
+  description: Evolving free plugin instrument.
+
+- name: Neural Amp Modeler
+  author: Neural Amp Modeler
+  type: Effects
+  url: https://www.neuralampmodeler.com/
+  description: Open-source amplifier modeler.

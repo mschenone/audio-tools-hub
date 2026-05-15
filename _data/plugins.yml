@@ -542,7 +542,6 @@
   os:
   - Windows
   - macOS
-  price: freemium
   detailed_description: Sting 2 by Iftah is an expressive Max for Live acid line performance
     sequencer. It's designed for live improvisation, allowing you to generate and
     mutate classic 303-style acid sequences on the fly using a unique, intuitive interface.
@@ -551,3 +550,51 @@
     acid Max for Live espressivo. È progettato per l'improvvisazione dal vivo, consentendoti
     di generare e mutare classiche sequenze acid in stile 303 al volo utilizzando
     un'interfaccia unica e intuitiva.
+- name: Slippery Slope
+  author: Iftah
+  type: Synth
+  url: https://www.if-tah.com/devices/slipperyslope
+  description: Max for Live acid-bassline synth voice.
+  description_it: Sintetizzatore per linee di basso acid Max for Live.
+  detailed_description: Slippery Slope by Iftah is a dedicated acid-bassline synthesizer voice for Max for Live. It is designed to create classic squelchy and aggressive acid sounds directly within Ableton Live, featuring intuitive controls for crafting authentic and expressive basslines.
+  detailed_description_it: Slippery Slope di Iftah è un sintetizzatore dedicato alle linee di basso acid per Max for Live. È progettato per creare i classici suoni acid aggressivi e squelchy direttamente all'interno di Ableton Live, offrendo controlli intuitivi per creare linee di basso autentiche ed espressive.
+  os:
+  - Windows
+  - macOS
+  price: freemium
+- name: Pyra
+  author: Iftah
+  type: Synth
+  url: https://www.if-tah.com/devices/pyra
+  description: 12-voice physical modelling string synth for Max for Live.
+  description_it: Sintetizzatore a modelli fisici a 12 voci per corde per Max for Live.
+  detailed_description: Pyra by Iftah is a 12-voice physical modelling string synthesizer built for Max for Live. It allows for deep exploration of acoustic and synthesized string sounds, offering a unique approach to sound design with complex, organic textures and responsive playability.
+  detailed_description_it: Pyra di Iftah è un sintetizzatore di corde a modelli fisici a 12 voci creato per Max for Live. Permette un'esplorazione profonda dei suoni di corde acustiche e sintetizzate, offrendo un approccio unico al sound design con texture organiche complesse e una suonabilità reattiva.
+  os:
+  - Windows
+  - macOS
+  price: freemium
+- name: Flufs
+  author: Iftah
+  type: Effects
+  url: https://www.if-tah.com/devices/flufs
+  description: Accessible Max for Live loudness meter and stereo phase scope.
+  description_it: Misuratore di loudness e oscilloscopio di fase stereo accessibile per Max for Live.
+  detailed_description: Flufs by Iftah is an accessible, easy-to-use loudness meter and stereo phase scope for Max for Live. It provides essential visual feedback for mixing and mastering tasks in Ableton Live, ensuring your audio levels and stereo image are precise and well-balanced.
+  detailed_description_it: Flufs di Iftah è un misuratore di loudness e oscilloscopio di fase stereo accessibile e facile da usare per Max for Live. Fornisce un feedback visivo essenziale per le attività di mixaggio e mastering in Ableton Live, assicurando che i livelli audio e l'immagine stereo siano precisi e ben bilanciati.
+  os:
+  - Windows
+  - macOS
+  price: freemium
+- name: Pitch Pipe
+  author: Iftah
+  type: Effects
+  url: https://www.if-tah.com/devices/pitchpipe
+  description: Accessible Max for Live tuner with string and percussion modes.
+  description_it: Accordatore accessibile per Max for Live con modalità per strumenti a corda e percussioni.
+  detailed_description: Pitch Pipe by Iftah is a versatile and accessible tuner for Max for Live. It features dedicated modes for both stringed instruments and percussion, providing accurate pitch detection and visual guidance to quickly get your samples and recordings perfectly in tune within Ableton Live.
+  detailed_description_it: Pitch Pipe di Iftah è un accordatore versatile e accessibile per Max for Live. Dispone di modalità dedicate sia per strumenti a corda che a percussione, fornendo un rilevamento accurato dell'intonazione e una guida visiva per accordare perfettamente e velocemente i tuoi campioni e registrazioni all'interno di Ableton Live.
+  os:
+  - Windows
+  - macOS
+  price: freemium

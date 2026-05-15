@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Free Audio Plugins Directory
+title: Audio Tools Hub
 ---
 
 <div class="search-container">

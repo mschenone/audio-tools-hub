@@ -272,3 +272,13 @@
   - macOS
   - Linux
   price: free
+- name: Polarity-RES
+  author: Polarity
+  type: Effects
+  url: https://polarity.productions/polarity-res/
+  description: Spectrum-graph editor with up to 32 active steep bandpass resonators.
+  os:
+  - Windows
+  - macOS
+  - Linux
+  price: free

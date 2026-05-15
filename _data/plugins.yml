@@ -272,3 +272,13 @@
   - macOS
   - Linux
   price: free
+- name: BAM - Beat Maker & Music Maker
+  author: Imaginando
+  type: Groovebox
+  url: https://www.imaginando.pt/products/bam-beat-maker-and-music-maker
+  description: Groovebox-style beat maker and music production environment.
+  os:
+  - Windows
+  - macOS
+  - iOS
+  price: freemium

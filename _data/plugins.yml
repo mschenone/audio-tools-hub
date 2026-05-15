@@ -304,6 +304,11 @@
   type: Effects
   url: https://www.if-tah.com/devices/pitchpipe
   description: Accessible Max for Live tuner with string and percussion modes.
+- name: Sting 2
+  author: Iftah
+  type: Synth
+  url: https://www.if-tah.com/devices/sting-2
+  description: Expressive Max for Live acid line performance sequencer.
   os:
   - Windows
   - macOS

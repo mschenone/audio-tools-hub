@@ -272,3 +272,12 @@
   - macOS
   - Linux
   price: free
+- name: Sting 2
+  author: Iftah
+  type: Synth
+  url: https://www.if-tah.com/devices/sting-2
+  description: Expressive Max for Live acid line performance sequencer.
+  os:
+  - Windows
+  - macOS
+  price: freemium

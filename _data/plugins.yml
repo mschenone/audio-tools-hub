@@ -272,6 +272,38 @@
   - macOS
   - Linux
   price: free
+- name: Slippery Slope
+  author: Iftah
+  type: Synth
+  url: https://www.if-tah.com/devices/slipperyslope
+  description: Max for Live acid-bassline synth voice.
+  os:
+  - Windows
+  - macOS
+  price: freemium
+- name: Pyra
+  author: Iftah
+  type: Synth
+  url: https://www.if-tah.com/devices/pyra
+  description: 12-voice physical modelling string synth for Max for Live.
+  os:
+  - Windows
+  - macOS
+  price: freemium
+- name: Flufs
+  author: Iftah
+  type: Effects
+  url: https://www.if-tah.com/devices/flufs
+  description: Accessible Max for Live loudness meter and stereo phase scope.
+  os:
+  - Windows
+  - macOS
+  price: freemium
+- name: Pitch Pipe
+  author: Iftah
+  type: Effects
+  url: https://www.if-tah.com/devices/pitchpipe
+  description: Accessible Max for Live tuner with string and percussion modes.
 - name: Sting 2
   author: Iftah
   type: Synth

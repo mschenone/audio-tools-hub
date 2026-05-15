@@ -25,7 +25,12 @@ title: Audio Tools Hub
       <div class="plugin-title">{{ plugin.name }}</div>
       <div class="plugin-author">by {{ plugin.author }}</div>
       <p class="plugin-desc">{{ plugin.description }}</p>
-      <a href="{{ plugin.url }}" class="btn-download" target="_blank" rel="noopener noreferrer">View Plugin</a>
+      <div style="display: flex; gap: 0.5rem; margin-top: auto;">
+        <a href="{{ plugin.url }}" class="btn-download" target="_blank" rel="noopener noreferrer" style="flex: 1; text-align: center;">View Plugin</a>
+        {% if plugin.video %}
+        <a href="{{ plugin.video }}" class="btn-download" target="_blank" rel="noopener noreferrer" style="flex: 1; text-align: center; background-color: #ff0000; color: white;">Watch Review</a>
+        {% endif %}
+      </div>
     </div>
   {% endfor %}
   </div>

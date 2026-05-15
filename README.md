@@ -15,6 +15,7 @@ Just append your plugin data to `_data/plugins.yml` like this:
   type: Synth
   price: free
   url: https://link-to-plugin.com
+  video: https://www.youtube.com/watch?v=...
   description: A short, 1-2 sentence description.
   os:
     - Windows

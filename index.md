@@ -15,8 +15,13 @@ title: Audio Tools Hub
   <h3>{{ type_group.name }}</h3>
   <div class="plugin-grid">
   {% for plugin in type_group.items %}
-    <div class="plugin-card" data-search-text="{{ plugin.name | downcase }} {{ plugin.author | downcase }} {{ plugin.description | downcase }} {{ type_group.name | downcase }}">
-      <div class="plugin-type-badge">{{ type_group.name }}</div>
+    <div class="plugin-card" data-search-text="{{ plugin.name | downcase }} {{ plugin.author | downcase }} {{ plugin.description | downcase }} {{ type_group.name | downcase }} {{ plugin.price | downcase }}">
+      <div>
+        <span class="plugin-type-badge">{{ type_group.name }}</span>
+        {% if plugin.price %}
+          <span class="plugin-price-badge" style="display: inline-block; padding: 0.2rem 0.6rem; font-size: 0.75rem; border-radius: 20px; font-weight: bold; background-color: {% if plugin.price == 'free' %}#28a745{% else %}#ffc107{% endif %}; color: {% if plugin.price == 'free' %}white{% else %}#333{% endif %}; margin-left: 0.5rem; margin-bottom: 0.5rem;">{{ plugin.price | capitalize }}</span>
+        {% endif %}
+      </div>
       <div class="plugin-title">{{ plugin.name }}</div>
       <div class="plugin-author">by {{ plugin.author }}</div>
       <p class="plugin-desc">{{ plugin.description }}</p>

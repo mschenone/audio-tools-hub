@@ -13,6 +13,7 @@ Just append your plugin data to `_data/plugins.yml` like this:
 - name: Plugin Name
   author: Developer/Company Name
   type: Synth
+  price: free
   url: https://link-to-plugin.com
   description: A short, 1-2 sentence description.
   os:

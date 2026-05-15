@@ -4,242 +4,271 @@
   url: https://vital.audio/
   description: Spectral warping wavetable synthesizer.
   os:
-    - Windows
-    - macOS
-    - Linux
+  - Windows
+  - macOS
+  - Linux
+  price: free
 - name: Valhalla Supermassive
   author: Valhalla DSP
   type: Effects
   url: https://valhalladsp.com/shop/reverb/valhalla-supermassive/
   description: Massive delays and reverbs.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: free
 - name: Surge XT
   author: Surge Synth Team
   type: Synth
   url: https://surge-synthesizer.github.io/
   description: Extremely powerful open-source hybrid synthesizer.
   os:
-    - Windows
-    - macOS
-    - Linux
+  - Windows
+  - macOS
+  - Linux
+  price: free
 - name: TDR Nova
   author: Tokyo Dawn Records
   type: Effects
   url: https://www.tokyodawn.net/tdr-nova/
   description: Parallel dynamic equalizer.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: freemium
 - name: OTT
   author: Xfer Records
   type: Effects
   url: https://xferrecords.com/freeware
   description: Multiband upwards/downwards compressor.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: free
 - name: Dexed
   author: Digital Suburban
   type: Synth
   url: https://asb2m10.github.io/dexed/
   description: FM synthesizer modeled on the Yamaha DX7.
   os:
-    - Windows
-    - macOS
-    - Linux
+  - Windows
+  - macOS
+  - Linux
+  price: free
 - name: Artists in DSP
   author: Artists in DSP
   type: Effects
   url: https://artistsindsp.gumroad.com/?recommended_by=library
   description: Collection of audio plugins and tools.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: free
 - name: Freesound
   author: Freesound Project
   type: Samples
   url: https://freesound.org/
   description: Collaborative database of Creative Commons licensed audio samples.
   os:
-    - Web
+  - Web
+  price: free
 - name: TAL-Chorus-LX
   author: TAL Software
   type: Effects
   url: https://tal-software.com/products/tal-chorus-lx
   description: Juno-60 chorus emulation.
   os:
-    - Windows
-    - macOS
-    - Linux
+  - Windows
+  - macOS
+  - Linux
+  price: free
 - name: TAL-Reverb-4
   author: TAL Software
   type: Effects
   url: https://tal-software.com/products/tal-reverb-4
   description: High quality plate reverb with a vintage 80's character.
   os:
-    - Windows
-    - macOS
-    - Linux
+  - Windows
+  - macOS
+  - Linux
+  price: free
 - name: TAL-NoiseMaker
   author: TAL Software
   type: Synth
   url: https://tal-software.com/products/tal-noisemaker
   description: Virtual analog synthesizer with a great sound and low CPU usage.
   os:
-    - Windows
-    - macOS
-    - Linux
+  - Windows
+  - macOS
+  - Linux
+  price: free
 - name: TAL-Vocoder
   author: TAL Software
   type: Effects
   url: https://tal-software.com/products/tal-vocoder
   description: Vintage vocoder emulation with 11 bands.
   os:
-    - Windows
-    - macOS
-    - Linux
+  - Windows
+  - macOS
+  - Linux
+  price: free
 - name: Saucillator
   author: Matt Feury
   type: Synth
   url: https://play.google.com/store/apps/details?id=com.mattfeury.saucillator.android
   description: Digital synthesizer for iOS/Android.
   os:
-    - iOS
-    - Android
+  - iOS
+  - Android
+  price: free
 - name: Deelay
   author: Sixth Sample
   type: Effects
   url: https://sixthsample.com/deelay/
   description: Free delay plugin.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: free
 - name: Channe V
   author: Analog Obsession
   type: Effects
   url: https://analogobsession.com/
   description: Analog modeled channel strip.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: free
 - name: NI Komplete Start
   author: Native Instruments
   type: Bundle
   url: https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/
   description: Free production suite from Native Instruments.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: free
 - name: Spitfire Free Orchestra
   author: Spitfire Audio
   type: Samples
   url: http://tinyurl.com/3c8wtj8r
   description: Free orchestral sample library.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: free
 - name: Youlean Loudness Meter
   author: Youlean
   type: Effects
   url: https://youlean.co/youlean-loudness-meter/
   description: Loudness measurement plugin.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: freemium
 - name: SPAN
   author: Voxengo
   type: Effects
   url: https://www.voxengo.com/product/span/
   description: Real-time FFT audio spectrum analyzer.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: free
 - name: Flux Mini 2
   author: Caelum Audio
   type: Effects
   url: https://www.caelumaudio.com/CaelumAudio/?Page=FluxMini2
   description: Modulation effect plugin.
   os:
-    - Windows
-    - macOS
-    - iOS
+  - Windows
+  - macOS
+  - iOS
+  price: free
 - name: Panflow
   author: Audiomodern
   type: Effects
   url: https://audiomodern.com/shop/plugins/panflow/
   description: Panning modulator.
   os:
-    - Windows
-    - macOS
-    - iOS
+  - Windows
+  - macOS
+  - iOS
+  price: free
 - name: Vinyl Guitar 2
   author: Echo Sound Works
   type: Synth
   url: https://www.echosoundworks.com/vinyl-guitar-2
   description: Characterful guitar instrument.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: free
 - name: Arturia Synth Bundle
   author: Arturia
   type: Bundle
   url: http://tinyurl.com/mr3cj5cr
   description: Free synths from Arturia.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: free
 - name: Vaults
   author: The Crow Hill Company
   type: Samples
   url: https://thecrowhillcompany.com/vaults-free-plugin/
   description: Evolving free plugin instrument.
   os:
-    - Windows
-    - macOS
+  - Windows
+  - macOS
+  price: free
 - name: Neural Amp Modeler
   author: Neural Amp Modeler
   type: Effects
   url: https://www.neuralampmodeler.com/
   description: Open-source amplifier modeler.
   os:
-    - Windows
-    - macOS
-    - Linux
+  - Windows
+  - macOS
+  - Linux
+  price: free
 - name: AudioKit Synth One
   author: AudioKit Pro
   type: Synth
   url: https://audiokitpro.com/synth/
   description: Completely free, open-source iPad synthesizer.
   os:
-    - iOS
+  - iOS
+  price: free
 - name: RoughRider 3
   author: Audio Damage
   type: Effects
   url: https://www.audiodamage.com/pages/free-and-legacy
   description: One of the most popular free compressor plugins on the planet.
   os:
-    - Windows
-    - macOS
-    - Linux
-    - iOS
+  - Windows
+  - macOS
+  - Linux
+  - iOS
+  price: free
 - name: Chow Tape Model
   author: Chowdhury DSP
   type: Effects
   url: https://chowdsp.com/products.html
   description: Physical modeling of an analog tape machine.
   os:
-    - Windows
-    - macOS
-    - Linux
-    - iOS
+  - Windows
+  - macOS
+  - Linux
+  - iOS
+  price: free
 - name: Moon Echo
   author: AudioThing
   type: Effects
   url: https://www.audiothing.net/effects/moon-echo/
   description: Free moon bounce and experimental delay plugin.
   os:
-    - Windows
-    - macOS
-    - Linux
+  - Windows
+  - macOS
+  - Linux
+  price: free

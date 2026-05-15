@@ -20,6 +20,7 @@ All plugins are stored in `_data/plugins.yml`. To add a new plugin:
    - name: Plugin Name
      author: Developer/Company Name
      type: Synth # (e.g., Synth, Effects, Bundle, Samples)
+     price: free # (use "free" for 0 cost)
      url: https://link-to-plugin.com
      description: A short, 1-2 sentence description of what the plugin does.
      os:

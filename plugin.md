@@ -23,17 +23,14 @@ title: Plugin Details
     <h4 style="color: #999; text-transform: uppercase; border-bottom: 1px solid #444; padding-bottom: 0.5rem;">Description</h4>
     <p id="p-desc" style="font-size: 1.1rem; line-height: 1.6;"></p>
     
-<<<<<<< Updated upstream
     <h4 style="margin-top: 1.5rem;">Supported OS</h4>
     <ul id="p-os" style="list-style-type: disc; margin-left: 1.5rem;"></ul>
-=======
     <div id="p-detailed-desc-container" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed #444;">
       <p id="p-detailed-desc" style="line-height: 1.6; color: #ccc;"></p>
     </div>
     
     <h4 style="margin-top: 1.5rem; color: #999; text-transform: uppercase; border-bottom: 1px solid #444; padding-bottom: 0.5rem;">Supported OS</h4>
     <div id="p-os" style="margin-top: 1rem; font-size: 1.2rem; display: flex; gap: 1rem;"></div>
->>>>>>> Stashed changes
   </div>
   
   <div style="text-align: center; margin-top: 2rem;">
@@ -63,6 +60,15 @@ title: Plugin Details
       document.getElementById('p-author').textContent = 'by ' + plugin.author;
       document.getElementById('p-type').textContent = plugin.type;
       document.getElementById('p-desc').textContent = plugin.description;
+      
+      const detailedDesc = document.getElementById('p-detailed-desc');
+      if (plugin.detailed_description) {
+        detailedDesc.textContent = plugin.detailed_description;
+        document.getElementById('p-detailed-desc-container').style.display = 'block';
+      } else {
+        document.getElementById('p-detailed-desc-container').style.display = 'none';
+      }
+
       document.getElementById('p-url').href = plugin.url;
       
       const priceBadge = document.getElementById('p-price');

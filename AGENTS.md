@@ -3,7 +3,7 @@
 ## 🎯 Project Identity
 
 This is a **static site** built with **Jekyll** and hosted on **GitHub Pages**.
-It functions as a community-driven resource hub, listing free VST plugins, synths, and effects.
+It functions as a community-driven resource hub, listing free and non free VST plugins, synths, and effects.
 
 - **Primary data source**: In-repository YAML files located in `/_data/`.
 - **Core principle**: All content is **file-driven**. The live website is generated from these files.

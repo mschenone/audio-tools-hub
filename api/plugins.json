@@ -1,0 +1,16 @@
+---
+layout: null
+---
+[
+  {% for plugin in site.data.plugins %}
+  {
+    "name": {{ plugin.name | jsonify }},
+    "author": {{ plugin.author | jsonify }},
+    "type": {{ plugin.type | jsonify }},
+    "price": {{ plugin.price | jsonify }},
+    "url": {{ plugin.url | jsonify }},
+    "description": {{ plugin.description | jsonify }},
+    "os": {{ plugin.os | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

@@ -25,7 +25,7 @@ title: Audio Tools Hub
       <div class="plugin-title">{{ plugin.name }}</div>
       <div class="plugin-author">by {{ plugin.author }}</div>
       <p class="plugin-desc">{{ plugin.description }}</p>
-      <a href="{{ plugin.url }}" class="btn-download" target="_blank" rel="noopener noreferrer">View Plugin</a>
+      <a href="plugin.html?name={{ plugin.name | url_encode }}" class="btn-download">View Plugin</a>
     </div>
   {% endfor %}
   </div>

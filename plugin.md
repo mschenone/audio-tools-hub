@@ -23,6 +23,10 @@ title: Plugin Details
     <h4>Description</h4>
     <p id="p-desc" style="font-size: 1.1rem; line-height: 1.6;"></p>
     
+    <div id="p-detailed-desc-container" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed var(--card-border);">
+      <p id="p-detailed-desc" style="line-height: 1.6;"></p>
+    </div>
+    
     <h4 style="margin-top: 1.5rem;">Supported OS</h4>
     <ul id="p-os" style="list-style-type: disc; margin-left: 1.5rem;"></ul>
   </div>
@@ -54,6 +58,15 @@ title: Plugin Details
       document.getElementById('p-author').textContent = 'by ' + plugin.author;
       document.getElementById('p-type').textContent = plugin.type;
       document.getElementById('p-desc').textContent = plugin.description;
+      
+      const detailedDesc = document.getElementById('p-detailed-desc');
+      if (plugin.detailed_description) {
+        detailedDesc.textContent = plugin.detailed_description;
+        document.getElementById('p-detailed-desc-container').style.display = 'block';
+      } else {
+        document.getElementById('p-detailed-desc-container').style.display = 'none';
+      }
+
       document.getElementById('p-url').href = plugin.url;
       
       const priceBadge = document.getElementById('p-price');

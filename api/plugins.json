@@ -10,6 +10,7 @@ layout: null
     "price": {{ plugin.price | jsonify }},
     "url": {{ plugin.url | jsonify }},
     "description": {{ plugin.description | jsonify }},
+    "detailed_description": {{ plugin.detailed_description | jsonify }},
     "os": {{ plugin.os | jsonify }}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}

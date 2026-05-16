@@ -1,3 +1,4 @@
+---
 - name: Vital
   author: Matt Tytel
   type: Synth
@@ -8,6 +9,10 @@
   - macOS
   - Linux
   price: free
+  detailed_description: Vital is a visually stunning spectral warping wavetable synthesizer.
+    It allows you to see how the sound is being created in real-time, offering extremely
+    flexible modulation routing, custom wavetables, and high-quality built-in effects.
+    A must-have for modern electronic music production.
 - name: Valhalla Supermassive
   author: Valhalla DSP
   type: Effects
@@ -17,6 +22,10 @@
   - Windows
   - macOS
   price: free
+  detailed_description: Valhalla Supermassive has been designed from the ground up
+    for massive delays and reverbs. It uses a variety of feedback delay networks,
+    where each delay in the structure can be up to 2 seconds long. Perfect for ambient
+    soundscapes, expansive spaces, and creative sound design.
 - name: Surge XT
   author: Surge Synth Team
   type: Synth
@@ -27,6 +36,10 @@
   - macOS
   - Linux
   price: free
+  detailed_description: Surge XT is an incredibly powerful, open-source hybrid synthesizer
+    featuring many synthesis techniques, a wide selection of filters, a flexible modulation
+    engine, a massive array of effects, and modern features like MPE and microtuning.
+    It's built collaboratively by the open-source community.
 - name: TDR Nova
   author: Tokyo Dawn Records
   type: Effects
@@ -36,6 +49,10 @@
   - Windows
   - macOS
   price: freemium
+  detailed_description: TDR Nova is a parallel dynamic equalizer. Appearing in the
+    familiar layout of a parametric equalizer, each band also includes a full-featured
+    dynamics section allowing the processor to cover an impressively wide range of
+    applications, from dynamic EQ to multi-band compression.
 - name: OTT
   author: Xfer Records
   type: Effects
@@ -45,6 +62,10 @@
   - Windows
   - macOS
   price: free
+  detailed_description: OTT is a re-creation of a popular aggressive multiband upwards/downwards
+    compressor setting used by many electronic music producers. It squashes dynamics
+    to bring out the subtle details, creating a highly compressed, 'in-your-face'
+    sound.
 - name: Dexed
   author: Digital Suburban
   type: Synth
@@ -55,6 +76,10 @@
   - macOS
   - Linux
   price: free
+  detailed_description: Dexed is a multi platform, multi format plugin synth that
+    is closely modeled on the Yamaha DX7. Under the hood it uses music-synthesizer-for-android
+    for the synth engine and JUCE for the plugin wrapper. It can also act as a MIDI
+    cartridge librarian/manager for a real DX7.
 - name: Artists in DSP
   author: Artists in DSP
   type: Effects
@@ -64,6 +89,10 @@
   - Windows
   - macOS
   price: free
+  detailed_description: A collaborative collection of audio plugins and tools built
+    by DSP developers. It often features experimental and highly creative effects,
+    providing producers with unique sound manipulation capabilities not found in standard
+    DAW toolkits.
 - name: Freesound
   author: Freesound Project
   type: Samples
@@ -72,6 +101,10 @@
   os:
   - Web
   price: free
+  detailed_description: Freesound is a collaborative database of Creative Commons
+    Licensed sounds. Browse, download and share sounds. While not a standard VST plugin,
+    it is an essential web resource for finding field recordings, foley, and diverse
+    samples for music production.
 - name: TAL-Chorus-LX
   author: TAL Software
   type: Effects
@@ -82,6 +115,10 @@
   - macOS
   - Linux
   price: free
+  detailed_description: TAL-Chorus-LX is a faithful emulation of the legendary chorus
+    found in the Roland Juno-60 synthesizer. It features two different chorus modes
+    and adds width and vintage character to any audio source, especially synths and
+    guitars.
 - name: TAL-Reverb-4
   author: TAL Software
   type: Effects
@@ -92,6 +129,10 @@
   - macOS
   - Linux
   price: free
+  detailed_description: TAL-Reverb-4 is a high quality plate reverb with a vintage
+    80's character. It has a highly diffused sound, fast build-up time, and works
+    exceptionally well on lead vocals, synthesizers, and percussion to add a classic,
+    dense spatial effect.
 - name: TAL-NoiseMaker
   author: TAL Software
   type: Synth
@@ -102,6 +143,10 @@
   - macOS
   - Linux
   price: free
+  detailed_description: TAL-NoiseMaker is a virtual analog synthesizer with a great
+    sound and low CPU usage. It includes an improved synth engine, a variety of oscillator
+    waveforms, a great sounding filter, and built-in effects, making it a versatile
+    tool for classic analog sounds.
 - name: TAL-Vocoder
   author: TAL Software
   type: Effects
@@ -112,6 +157,10 @@
   - macOS
   - Linux
   price: free
+  detailed_description: TAL-Vocoder is a vintage vocoder emulation with 11 bands that
+    emulates the sound of vocoders from the early 80's. It includes an analog modeled
+    synthesizer component for the carrier signal, allowing you to create classic robotic
+    voice effects easily.
 - name: Saucillator
   author: Matt Feury
   type: Synth
@@ -121,6 +170,10 @@
   - iOS
   - Android
   price: free
+  detailed_description: Saucillator is a fun, intuitive digital synthesizer app for
+    iOS and Android. It uses a touchscreen interface for expressive playing, allowing
+    you to slide your finger to change pitch and modulation simultaneously, perfect
+    for quick ideas on the go.
 - name: Deelay
   author: Sixth Sample
   type: Effects
@@ -130,6 +183,10 @@
   - Windows
   - macOS
   price: free
+  detailed_description: Deelay is a versatile free delay plugin offering a wide range
+    of delay types, from clean digital echoes to warm tape emulations. It features
+    intuitive controls, built-in filtering, and creative modulation options to enhance
+    any track.
 - name: Channe V
   author: Analog Obsession
   type: Effects
@@ -139,6 +196,10 @@
   - Windows
   - macOS
   price: free
+  detailed_description: Channe V by Analog Obsession is an analog-modeled channel
+    strip plugin that brings the classic sound of vintage consoles to your DAW. It
+    features a mic preamp emulation, a musical EQ section, and a smooth compressor
+    for shaping your mix.
 - name: NI Komplete Start
   author: Native Instruments
   type: Bundle
@@ -148,6 +209,10 @@
   - Windows
   - macOS
   price: free
+  detailed_description: Komplete Start is a curated selection of studio-quality instruments,
+    effects, utilities, loops, and samples from Native Instruments. It provides a
+    solid foundation for any producer, offering professional-grade sounds completely
+    free of charge.
 - name: Spitfire Free Orchestra
   author: Spitfire Audio
   type: Samples
@@ -157,6 +222,10 @@
   - Windows
   - macOS
   price: free
+  detailed_description: Part of Spitfire Audio's LABS series, this offers a collection
+    of high-quality, free orchestral sample libraries. Recorded with top musicians
+    in great acoustic spaces, it provides lush strings, brass, and woodwinds without
+    the premium price tag.
 - name: Youlean Loudness Meter
   author: Youlean
   type: Effects
@@ -166,6 +235,10 @@
   - Windows
   - macOS
   price: freemium
+  detailed_description: Youlean Loudness Meter helps you find the true perceived loudness
+    of your audio and prepares it for TV or streaming services release. It features
+    a precise, easy-to-read interface with a histogram display for tracking loudness
+    over time.
 - name: SPAN
   author: Voxengo
   type: Effects
@@ -175,6 +248,10 @@
   - Windows
   - macOS
   price: free
+  detailed_description: SPAN is a real-time 'fast Fourier transform' audio spectrum
+    analyzer plugin. For the most part, it was derived from Voxengo GlissEQ dynamic
+    parametric equalizer and reproduces its spectrum analysis functionality, providing
+    highly customizable visual feedback of your audio.
 - name: Flux Mini 2
   author: Caelum Audio
   type: Effects
@@ -185,6 +262,10 @@
   - macOS
   - iOS
   price: free
+  detailed_description: Flux Mini 2 is an audio effect that adds life, character,
+    and dynamism to your tracks. The customizable graph creates a shape which affects
+    either the amplitude, low-pass filter, or high-pass filter, allowing you to easily
+    create rhythmic gating and sidechain effects.
 - name: Panflow
   author: Audiomodern
   type: Effects
@@ -195,6 +276,9 @@
   - macOS
   - iOS
   price: free
+  detailed_description: Panflow by Audiomodern is a creative panning modulator designed
+    to shape complex, evolving panning patterns and add random, rhythmical movement
+    to any audio track in real-time, bringing static sounds to life.
 - name: Vinyl Guitar 2
   author: Echo Sound Works
   type: Synth
@@ -204,6 +288,10 @@
   - Windows
   - macOS
   price: free
+  detailed_description: Vinyl Guitar 2 by Echo Sound Works is a characterful virtual
+    guitar instrument. It captures the nostalgic, lo-fi sound of a guitar sampled
+    from a vinyl record, complete with fret noises and authentic vinyl crackle, perfect
+    for lo-fi hip hop and chillout genres.
 - name: Arturia Synth Bundle
   author: Arturia
   type: Bundle
@@ -213,6 +301,10 @@
   - Windows
   - macOS
   price: free
+  detailed_description: While Arturia mainly sells premium synths, they occasionally
+    offer free introductory versions or lighter editions of their award-winning analog
+    emulations. These provide a taste of their meticulously modeled vintage synthesizer
+    sound.
 - name: Vaults
   author: The Crow Hill Company
   type: Samples
@@ -222,6 +314,10 @@
   - Windows
   - macOS
   price: free
+  detailed_description: Vaults by The Crow Hill Company is an evolving, free plugin
+    instrument. It acts as a dedicated player for a growing collection of unique and
+    characterful sound libraries, offering an inspiring selection of organic and processed
+    sounds.
 - name: Neural Amp Modeler
   author: Neural Amp Modeler
   type: Effects
@@ -232,6 +328,10 @@
   - macOS
   - Linux
   price: free
+  detailed_description: Neural Amp Modeler (NAM) is an open-source project that uses
+    deep learning to create incredibly accurate models of guitar amplifiers and pedals.
+    It offers arguably the most realistic amp tones available in software, completely
+    free.
 - name: AudioKit Synth One
   author: AudioKit Pro
   type: Synth
@@ -240,6 +340,9 @@
   os:
   - iOS
   price: free
+  detailed_description: AudioKit Synth One is a completely free, fully open-source
+    professional iOS synthesizer. Created by over 100 volunteers, it features over
+    300 presets, a 16-step sequencer, and warm analog-style oscillators.
 - name: RoughRider 3
   author: Audio Damage
   type: Effects
@@ -251,6 +354,9 @@
   - Linux
   - iOS
   price: free
+  detailed_description: RoughRider 3 by Audio Damage is a modern classic in the world
+    of free plugins. It's a heavily colored compressor with a distinct vintage bite,
+    perfect for adding punch and attitude to drums, bass, and synth lines.
 - name: Chow Tape Model
   author: Chowdhury DSP
   type: Effects
@@ -262,6 +368,10 @@
   - Linux
   - iOS
   price: free
+  detailed_description: Chow Tape Model is a physical modeling emulation of an analog
+    tape machine. Originally based on the Sony TC-260, it can be used to add subtle
+    analog warmth, or pushed hard to create extreme tape saturation, wow, and flutter
+    effects.
 - name: Moon Echo
   author: AudioThing
   type: Effects
@@ -272,6 +382,9 @@
   - macOS
   - Linux
   price: free
+  detailed_description: Moon Echo is a free delay plugin inspired by the experimental
+    communication technique of Earth-Moon-Earth (moon bounce). It offers unique, atmospheric
+    delays with a built-in ping-pong mode and characterful lo-fi degradation.
 - name: Sting 2
   author: Iftah
   type: Synth
@@ -281,3 +394,6 @@
   - Windows
   - macOS
   price: freemium
+  detailed_description: Sting 2 by Iftah is an expressive Max for Live acid line performance
+    sequencer. It's designed for live improvisation, allowing you to generate and
+    mutate classic 303-style acid sequences on the fly using a unique, intuitive interface.

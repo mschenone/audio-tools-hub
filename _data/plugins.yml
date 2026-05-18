@@ -397,3 +397,13 @@
   detailed_description: Sting 2 by Iftah is an expressive Max for Live acid line performance
     sequencer. It's designed for live improvisation, allowing you to generate and
     mutate classic 303-style acid sequences on the fly using a unique, intuitive interface.
+- name: BattleFX
+  author: Unfiltered Audio
+  type: Effects
+  url: https://www.unfilteredaudio.com/products/battlefx
+  description: Dedicated plugin for the send effects in Battalion.
+  os:
+  - Windows
+  - macOS
+  price: free
+  detailed_description: BattleFX is a dedicated plugin for the send effects in Battalion. It features the "Shatter Delay" and "Headspace Reverb", a fully-featured set of mix controls, and the Maximize and EQ section from the Master portion of Battalion. It includes a system for automatically choking the delay and reverb buffers at repeating intervals.

@@ -1,17 +1,17 @@
 ---
 permalink: /plugin.html
 page_id: plugin
-lang: en
+lang: it
 layout: default
-title: Plugin Details
+title: Dettagli Plugin
 ---
 
-<div id="loading">Loading plugin details...</div>
-<div id="error" style="display: none; color: red;">Plugin not found.</div>
+<div id="loading">Caricamento dettagli plugin...</div>
+<div id="error" style="display: none; color: red;">Plugin non trovato.</div>
 
 <div id="plugin-content" style="display: none;" class="plugin-details-card">
   <div style="margin-bottom: 1rem;">
-    <a href="index.html" style="text-decoration: none; color: var(--text-color);">← Back to List</a>
+    <a href="{{ site.baseurl }}/it/" style="text-decoration: none; color: var(--text-color);">← Torna alla lista</a>
   </div>
   
   <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
@@ -23,19 +23,19 @@ title: Plugin Details
   <h3 id="p-author" style="margin-top: 0; color: #666; font-weight: normal;"></h3>
   
   <div style="margin: 2rem 0; padding: 1.5rem; background-color: var(--card-bg); border: 1px solid var(--card-border); border-radius: 8px;">
-    <h4>Description</h4>
+    <h4>Descrizione</h4>
     <p id="p-desc" style="font-size: 1.1rem; line-height: 1.6;"></p>
     
     <div id="p-detailed-desc-container" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed var(--card-border);">
       <p id="p-detailed-desc" style="line-height: 1.6;"></p>
     </div>
     
-    <h4 style="margin-top: 1.5rem;">Supported OS</h4>
+    <h4 style="margin-top: 1.5rem;">Sistemi Operativi Supportati</h4>
     <ul id="p-os" style="list-style-type: disc; margin-left: 1.5rem;"></ul>
   </div>
   
   <div style="text-align: center; margin-top: 2rem;">
-    <a id="p-url" href="#" class="btn-download" target="_blank" rel="noopener noreferrer" style="font-size: 1.2rem; padding: 1rem 2rem;">Get Plugin</a>
+    <a id="p-url" href="#" class="btn-download" target="_blank" rel="noopener noreferrer" style="font-size: 1.2rem; padding: 1rem 2rem;">Scarica Plugin</a>
   </div>
 </div>
 
@@ -51,20 +51,20 @@ title: Plugin Details
     }
 
     try {
-      const response = await fetch('api/plugins.json');
+      const response = await fetch('{{ site.baseurl }}/api/plugins.json');
       const plugins = await response.json();
       const plugin = plugins.find(p => p.name === name);
 
       if (!plugin) throw new Error('Not found');
 
       document.getElementById('p-name').textContent = plugin.name;
-      document.getElementById('p-author').textContent = 'by ' + plugin.author;
+      document.getElementById('p-author').textContent = 'di ' + plugin.author;
       document.getElementById('p-type').textContent = plugin.type;
-      document.getElementById('p-desc').textContent = plugin.description;
+      document.getElementById('p-desc').textContent = plugin.description_it || plugin.description;
       
       const detailedDesc = document.getElementById('p-detailed-desc');
-      if (plugin.detailed_description) {
-        detailedDesc.textContent = plugin.detailed_description;
+      if (plugin.detailed_description_it || plugin.detailed_description) {
+        detailedDesc.textContent = plugin.detailed_description_it || plugin.detailed_description;
         document.getElementById('p-detailed-desc-container').style.display = 'block';
       } else {
         document.getElementById('p-detailed-desc-container').style.display = 'none';
@@ -95,11 +95,11 @@ title: Plugin Details
         });
       } else {
         const li = document.createElement('li');
-        li.textContent = 'Not specified';
+        li.textContent = 'Non specificato';
         osList.appendChild(li);
       }
 
-      document.title = plugin.name + " | Audio Tools Hub";
+      document.title = plugin.name + " | Hub Strumenti Audio";
       document.getElementById('loading').style.display = 'none';
       document.getElementById('plugin-content').style.display = 'block';
 

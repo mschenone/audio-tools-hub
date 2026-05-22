@@ -3,10 +3,29 @@ permalink: /faq/
 page_id: faq
 lang: it
 layout: default
-title: FAQ & Aiuto
+title: FAQ e Aiuto
 ---
 
+<div style="margin-bottom: 1rem;">
+  <a href="{{ site.baseurl }}/it/" style="text-decoration: none; color: var(--text-color);">← Torna alla Home</a>
+</div>
+
 # Domande Frequenti
+
+## Cos'è un Plugin VST/AU?
+
+Un plugin è un software che viene eseguito all'interno di un'applicazione host (la tua DAW - Digital Audio Workstation, come Ableton, FL Studio o Logic). I plugin vengono utilizzati per generare suoni (Sintetizzatori, Campionatori) o elaborare l'audio (Effetti come Riverbero, Delay, EQ).
+
+Esistono diversi formati di plugin, che dipendono principalmente dal sistema operativo e dalla DAW:
+
+*   **VST (Virtual Studio Technology):** Creato da Steinberg. È il formato più comune a livello globale. Oggi si presenta in due versioni principali:
+    *   **VST2 (`.dll` su Windows, `.vst` su Mac):** Lo standard più vecchio. Ancora ampiamente utilizzato, ma in fase di graduale abbandono.
+    *   **VST3 (`.vst3`):** Lo standard moderno. È più efficiente in termini di CPU perché può spegnersi quando non passa alcun segnale audio.
+*   **AU (Audio Units - `.component`):** Sviluppato da Apple. Questo formato è esclusivo per macOS e iOS. Logic Pro e GarageBand utilizzano *solo* plugin AU.
+*   **AAX:** Sviluppato da Avid. Questo formato è esclusivo per Pro Tools.
+*   **CLAP (Clever Audio Plug-in):** Uno standard open-source più recente, progettato per essere estremamente efficiente e flessibile. Il supporto sta crescendo in DAW come Bitwig e Studio One.
+
+---
 
 ## Come Installare i Plugin
 

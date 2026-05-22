@@ -12,6 +12,7 @@ layout: null
     "description": {{ plugin.description | jsonify }},
     "description_it": {{ plugin.description_it | jsonify }},
     "detailed_description": {{ plugin.detailed_description | jsonify }},
+    "detailed_description_it": {{ plugin.detailed_description_it | jsonify }},
     "os": {{ plugin.os | jsonify }}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}

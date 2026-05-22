@@ -1,14 +1,14 @@
 ---
 permalink: /faq/
 page_id: faq
-lang: en
+lang: it
 layout: default
-title: FAQ & Help
+title: FAQ & Aiuto
 ---
 
-# Frequently Asked Questions
+# Domande Frequenti
 
-## How to Install Plugins
+## Come Installare i Plugin
 
 ### Windows
 1. Unzip the downloaded file.

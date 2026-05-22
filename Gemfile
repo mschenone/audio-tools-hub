@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
 gem "jekyll"
+gem "jekyll-sass-converter", "~> 2.2"
 gem "webrick"
 gem "ffi", "~> 1.15.5"
 gem "eventmachine", "1.2.7"
+gem "jekyll-polyglot"
+gem "bigdecimal"

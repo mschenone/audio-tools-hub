@@ -2,3 +2,9 @@ title: Audio Tools Hub
 description: A community-driven resource hub for free VST plugins, synths, and effects.
 url: "https://mschenone.github.io"
 baseurl: "/audio-tools-hub"
+
+plugins:
+  - jekyll-polyglot
+
+languages: ["en", "it"]
+default_lang: "en"

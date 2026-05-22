@@ -1,0 +1,55 @@
+name: Post-Deploy Smoke Test
+
+on:
+  deployment_status:
+
+jobs:
+  smoke-test:
+    # Only run this if the deployment was successful
+    if: github.event.deployment_status.state == 'success'
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Wait for GitHub Pages propagation
+        run: sleep 15 # Gives GitHub Pages CDN a moment to update the cache
+
+      - name: Verify Root Domain (English)
+        run: |
+          echo "Testing https://mschenone.github.io/audio-tools-hub/"
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -L https://mschenone.github.io/audio-tools-hub/)
+          if [ "$HTTP_CODE" -ne 200 ]; then
+            echo "Error: Expected HTTP 200, got $HTTP_CODE"
+            exit 1
+          fi
+          echo "✅ Root domain is live!"
+
+      - name: Verify Translation (Italian)
+        run: |
+          echo "Testing https://mschenone.github.io/audio-tools-hub/it/"
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -L https://mschenone.github.io/audio-tools-hub/it/)
+          if [ "$HTTP_CODE" -ne 200 ]; then
+            echo "Error: Expected HTTP 200, got $HTTP_CODE"
+            exit 1
+          fi
+          echo "✅ Italian translation is live!"
+
+      - name: Verify API Endpoint
+        run: |
+          echo "Testing https://mschenone.github.io/audio-tools-hub/api/plugins.json"
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -L https://mschenone.github.io/audio-tools-hub/api/plugins.json)
+          if [ "$HTTP_CODE" -ne 200 ]; then
+            echo "Error: Expected HTTP 200, got $HTTP_CODE"
+            exit 1
+          fi
+          echo "✅ JSON API is live!"
+
+      - name: Verify Page Content
+        run: |
+          # A quick sanity check to ensure the page actually rendered the HTML and isn't a generic error page
+          CONTENT=$(curl -s -L https://mschenone.github.io/audio-tools-hub/)
+          if echo "$CONTENT" | grep -q "Audio Tools Hub"; then
+            echo "✅ Expected content found on the page!"
+          else
+            echo "Error: Did not find expected text on the page."
+            exit 1
+          fi

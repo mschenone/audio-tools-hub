@@ -1,0 +1,26 @@
+name: Test Site
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3' # Use stable Ruby 3.3 for tests
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+      - name: Build the site
+        run: bundle exec jekyll build
+
+      - name: Run HTMLProofer
+        run: bundle exec ruby test.rb

@@ -3,7 +3,9 @@
 ## 🎯 Project Identity
 
 This is a **static site** built with **Jekyll** and hosted on **GitHub Pages**.
-It functions as a community-driven resource hub, listing free and non free VST plugins, synths, and effects.
+It functions as a community-driven resource hub, listing VST plugins, synths, and effects.
+
+Every plugin description must be in english and italian.
 
 - **Primary data source**: In-repository YAML files located in `/_data/`.
 - **Core principle**: All content is **file-driven**. The live website is generated from these files.
@@ -30,7 +32,7 @@ It functions as a community-driven resource hub, listing free and non free VST p
 | :--- | :--- | :--- |
 | **Serve Locally** | `bundle exec jekyll serve` | Builds the site and starts a live preview at `http://localhost:4000`. |
 | **One-off Build** | `bundle exec jekyll build` | Builds the complete static site into the `/_site` directory. |
-| **Add a Plugin (YAML)** | `echo " - name: ..." >> _data/plugins.yml` | Append a new plugin entry to the database. |
+| **Add a Plugin (YAML)** | `echo " - name: ..." >> _data/plugins.yml` | Append a new plugin entry to the database. Ensure you provide `description`, `description_it`, `detailed_description`, and `detailed_description_it`. |
 | **Check Syntax** | `bundle exec jekyll doctor` | Verifies the Jekyll configuration and data files. |
 
 > **Note**: The development server is persistent and handles hot reloading automatically. The AI must not run `jekyll build` unless specifically asked to generate a production build.

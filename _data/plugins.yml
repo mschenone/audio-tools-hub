@@ -14,6 +14,11 @@
     flexible modulation routing, custom wavetables, and high-quality built-in effects.
     A must-have for modern electronic music production.
   description_it: Sintetizzatore wavetable a distorsione spettrale.
+  detailed_description_it: Vital è un sintetizzatore wavetable a distorsione spettrale
+    visivamente sbalorditivo. Ti permette di vedere come il suono viene creato in
+    tempo reale, offrendo un routing di modulazione estremamente flessibile, wavetable
+    personalizzate ed effetti integrati di alta qualità. Un must per la produzione
+    di musica elettronica moderna.
 - name: Valhalla Supermassive
   author: Valhalla DSP
   type: Effects
@@ -28,6 +33,10 @@
     where each delay in the structure can be up to 2 seconds long. Perfect for ambient
     soundscapes, expansive spaces, and creative sound design.
   description_it: Delay e riverberi massicci.
+  detailed_description_it: Valhalla Supermassive è stato progettato da zero per delay
+    e riverberi massicci. Utilizza una varietà di reti di delay a feedback, in cui
+    ogni delay nella struttura può durare fino a 2 secondi. Perfetto per paesaggi
+    sonori ambientali, spazi ampi e sound design creativo.
 - name: Surge XT
   author: Surge Synth Team
   type: Synth
@@ -43,6 +52,11 @@
     engine, a massive array of effects, and modern features like MPE and microtuning.
     It's built collaboratively by the open-source community.
   description_it: Sintetizzatore ibrido open-source estremamente potente.
+  detailed_description_it: Surge XT è un sintetizzatore ibrido open source incredibilmente
+    potente che offre molte tecniche di sintesi, un'ampia selezione di filtri, un
+    motore di modulazione flessibile, una vasta gamma di effetti e funzionalità moderne
+    come MPE e microtuning. È costruito in modo collaborativo dalla comunità open
+    source.
 - name: TDR Nova
   author: Tokyo Dawn Records
   type: Effects
@@ -57,6 +71,10 @@
     dynamics section allowing the processor to cover an impressively wide range of
     applications, from dynamic EQ to multi-band compression.
   description_it: Equalizzatore dinamico parallelo.
+  detailed_description_it: TDR Nova è un equalizzatore dinamico parallelo. Presentandosi
+    nel layout familiare di un equalizzatore parametrico, ogni banda include anche
+    una sezione di dinamica completa che consente al processore di coprire una gamma
+    di applicazioni incredibilmente ampia, dall'EQ dinamico alla compressione multibanda.
 - name: OTT
   author: Xfer Records
   type: Effects
@@ -71,6 +89,10 @@
     to bring out the subtle details, creating a highly compressed, 'in-your-face'
     sound.
   description_it: Compressore multibanda upwards/downwards.
+  detailed_description_it: OTT è la ricreazione di una popolare impostazione di compressore
+    multibanda upwards/downwards aggressivo utilizzata da molti produttori di musica
+    elettronica. Schiaccia la dinamica per far risaltare i dettagli più sottili, creando
+    un suono altamente compresso e 'in faccia'.
 - name: Dexed
   author: Digital Suburban
   type: Synth
@@ -86,6 +108,10 @@
     for the synth engine and JUCE for the plugin wrapper. It can also act as a MIDI
     cartridge librarian/manager for a real DX7.
   description_it: Sintetizzatore FM modellato sullo Yamaha DX7.
+  detailed_description_it: Dexed è un synth plugin multipiattaforma e multiformato
+    strettamente modellato sullo Yamaha DX7. Sotto il cofano utilizza music-synthesizer-for-android
+    per il motore del synth e JUCE per il wrapper del plugin. Può anche fungere da
+    libreria/gestore di cartucce MIDI per un vero DX7.
 - name: Artists in DSP
   author: Artists in DSP
   type: Effects
@@ -100,6 +126,10 @@
     providing producers with unique sound manipulation capabilities not found in standard
     DAW toolkits.
   description_it: Collezione di plugin e strumenti audio.
+  detailed_description_it: Una raccolta collaborativa di plugin e strumenti audio
+    creati dagli sviluppatori DSP. Spesso presenta effetti sperimentali e altamente
+    creativi, fornendo ai produttori capacità di manipolazione del suono uniche che
+    non si trovano nei toolkit standard delle DAW.
 - name: Freesound
   author: Freesound Project
   type: Samples
@@ -113,6 +143,10 @@
     it is an essential web resource for finding field recordings, foley, and diverse
     samples for music production.
   description_it: Database collaborativo di campioni audio con licenza Creative Commons.
+  detailed_description_it: Freesound è un database collaborativo di suoni con licenza
+    Creative Commons. Naviga, scarica e condividi suoni. Anche se non è un plugin
+    VST standard, è una risorsa web essenziale per trovare registrazioni sul campo,
+    foley e campioni diversi per la produzione musicale.
 - name: TAL-Chorus-LX
   author: TAL Software
   type: Effects
@@ -128,6 +162,10 @@
     and adds width and vintage character to any audio source, especially synths and
     guitars.
   description_it: Emulazione del chorus Juno-60.
+  detailed_description_it: TAL-Chorus-LX è un'emulazione fedele del leggendario chorus
+    presente nel sintetizzatore Roland Juno-60. Dispone di due diverse modalità chorus
+    e aggiunge ampiezza e carattere vintage a qualsiasi sorgente audio, in particolare
+    sintetizzatori e chitarre.
 - name: TAL-Reverb-4
   author: TAL Software
   type: Effects
@@ -143,6 +181,10 @@
     exceptionally well on lead vocals, synthesizers, and percussion to add a classic,
     dense spatial effect.
   description_it: Riverbero plate di alta qualità con carattere vintage anni '80.
+  detailed_description_it: TAL-Reverb-4 è un riverbero plate di alta qualità con un
+    carattere vintage anni '80. Ha un suono altamente diffuso, un tempo di accumulo
+    rapido e funziona eccezionalmente bene su voci soliste, sintetizzatori e percussioni
+    per aggiungere un effetto spaziale denso e classico.
 - name: TAL-NoiseMaker
   author: TAL Software
   type: Synth
@@ -159,6 +201,11 @@
     tool for classic analog sounds.
   description_it: Sintetizzatore analogico virtuale con un ottimo suono e basso utilizzo
     della CPU.
+  detailed_description_it: TAL-NoiseMaker è un sintetizzatore analogico virtuale con
+    un ottimo suono e un basso utilizzo della CPU. Include un motore synth migliorato,
+    una varietà di forme d'onda dell'oscillatore, un filtro dal suono eccezionale
+    ed effetti integrati, che lo rendono uno strumento versatile per i classici suoni
+    analogici.
 - name: TAL-Vocoder
   author: TAL Software
   type: Effects
@@ -174,6 +221,10 @@
     synthesizer component for the carrier signal, allowing you to create classic robotic
     voice effects easily.
   description_it: Emulazione di vocoder vintage a 11 bande.
+  detailed_description_it: TAL-Vocoder è un'emulazione di vocoder vintage con 11 bande
+    che emula il suono dei vocoder dei primi anni '80. Include un componente sintetizzatore
+    modellato analogicamente per il segnale portante, che consente di creare facilmente
+    classici effetti vocali robotici.
 - name: Saucillator
   author: Matt Feury
   type: Synth
@@ -188,6 +239,10 @@
     you to slide your finger to change pitch and modulation simultaneously, perfect
     for quick ideas on the go.
   description_it: Sintetizzatore digitale per iOS/Android.
+  detailed_description_it: Saucillator è un'app sintetizzatore digitale divertente
+    e intuitiva per iOS e Android. Utilizza un'interfaccia touchscreen per suonare
+    in modo espressivo, permettendoti di far scorrere il dito per cambiare intonazione
+    e modulazione contemporaneamente, perfetto per idee veloci in movimento.
 - name: Deelay
   author: Sixth Sample
   type: Effects
@@ -202,6 +257,10 @@
     intuitive controls, built-in filtering, and creative modulation options to enhance
     any track.
   description_it: Plugin di delay gratuito.
+  detailed_description_it: Deelay è un plugin delay gratuito e versatile che offre
+    un'ampia gamma di tipi di delay, dalle eco digitali pulite alle calde emulazioni
+    di nastro. Dispone di controlli intuitivi, filtraggio integrato e opzioni di modulazione
+    creative per migliorare qualsiasi traccia.
 - name: Channe V
   author: Analog Obsession
   type: Effects
@@ -216,6 +275,10 @@
     features a mic preamp emulation, a musical EQ section, and a smooth compressor
     for shaping your mix.
   description_it: Channel strip a modellazione analogica.
+  detailed_description_it: Channe V di Analog Obsession è un plugin per channel strip
+    modellato analogicamente che porta il suono classico delle console vintage nella
+    tua DAW. Presenta un'emulazione di preamplificatore microfonico, una sezione EQ
+    musicale e un compressore fluido per modellare il tuo mix.
 - name: NI Komplete Start
   author: Native Instruments
   type: Bundle
@@ -230,6 +293,10 @@
     solid foundation for any producer, offering professional-grade sounds completely
     free of charge.
   description_it: Suite di produzione gratuita di Native Instruments.
+  detailed_description_it: Komplete Start è una selezione curata di strumenti, effetti,
+    utility, loop e campioni di qualità da studio di Native Instruments. Fornisce
+    una solida base per qualsiasi produttore, offrendo suoni di livello professionale
+    in modo completamente gratuito.
 - name: Spitfire Free Orchestra
   author: Spitfire Audio
   type: Samples
@@ -244,6 +311,10 @@
     in great acoustic spaces, it provides lush strings, brass, and woodwinds without
     the premium price tag.
   description_it: Libreria di campioni orchestrali gratuita.
+  detailed_description_it: Parte della serie LABS di Spitfire Audio, offre una raccolta
+    di librerie di campioni orchestrali gratuiti di alta qualità. Registrato con i
+    migliori musicisti in grandi spazi acustici, fornisce archi, ottoni e legni rigogliosi
+    senza il prezzo premium.
 - name: Youlean Loudness Meter
   author: Youlean
   type: Effects
@@ -258,6 +329,10 @@
     a precise, easy-to-read interface with a histogram display for tracking loudness
     over time.
   description_it: Plugin di misurazione della loudness (volume).
+  detailed_description_it: Youlean Loudness Meter ti aiuta a trovare il vero volume
+    percepito del tuo audio e lo prepara per il rilascio su TV o servizi di streaming.
+    Dispone di un'interfaccia precisa e di facile lettura con un display a istogramma
+    per il monitoraggio del volume nel tempo.
 - name: SPAN
   author: Voxengo
   type: Effects
@@ -272,6 +347,11 @@
     parametric equalizer and reproduces its spectrum analysis functionality, providing
     highly customizable visual feedback of your audio.
   description_it: Analizzatore di spettro audio FFT in tempo reale.
+  detailed_description_it: SPAN è un plugin analizzatore di spettro audio 'fast Fourier
+    transform' in tempo reale. Per la maggior parte, è stato derivato dall'equalizzatore
+    parametrico dinamico Voxengo GlissEQ e ne riproduce la funzionalità di analisi
+    dello spettro, fornendo un feedback visivo altamente personalizzabile del tuo
+    audio.
 - name: Flux Mini 2
   author: Caelum Audio
   type: Effects
@@ -287,6 +367,10 @@
     either the amplitude, low-pass filter, or high-pass filter, allowing you to easily
     create rhythmic gating and sidechain effects.
   description_it: Plugin di effetti di modulazione.
+  detailed_description_it: Flux Mini 2 è un effetto audio che aggiunge vita, carattere
+    e dinamismo alle tue tracce. Il grafico personalizzabile crea una forma che influisce
+    sull'ampiezza, sul filtro passa-basso o sul filtro passa-alto, consentendoti di
+    creare facilmente gating ritmico ed effetti sidechain.
 - name: Panflow
   author: Audiomodern
   type: Effects
@@ -301,6 +385,10 @@
     to shape complex, evolving panning patterns and add random, rhythmical movement
     to any audio track in real-time, bringing static sounds to life.
   description_it: Modulatore di panning.
+  detailed_description_it: Panflow di Audiomodern è un modulatore di panning creativo
+    progettato per modellare pattern di panning complessi e in evoluzione e aggiungere
+    movimenti casuali e ritmici a qualsiasi traccia audio in tempo reale, dando vita
+    ai suoni statici.
 - name: Vinyl Guitar 2
   author: Echo Sound Works
   type: Synth
@@ -315,6 +403,10 @@
     from a vinyl record, complete with fret noises and authentic vinyl crackle, perfect
     for lo-fi hip hop and chillout genres.
   description_it: Strumento per chitarra pieno di carattere.
+  detailed_description_it: Vinyl Guitar 2 di Echo Sound Works è uno strumento virtuale
+    per chitarra pieno di carattere. Cattura il suono nostalgico e lo-fi di una chitarra
+    campionata da un disco in vinile, completo di rumori dei tasti e autentico crepitio
+    del vinile, perfetto per i generi hip hop e chillout lo-fi.
 - name: Arturia Synth Bundle
   author: Arturia
   type: Bundle
@@ -329,6 +421,10 @@
     emulations. These provide a taste of their meticulously modeled vintage synthesizer
     sound.
   description_it: Sintetizzatori gratuiti da Arturia.
+  detailed_description_it: Mentre Arturia vende principalmente sintetizzatori premium,
+    occasionalmente offre versioni introduttive gratuite o edizioni più leggere delle
+    loro pluripremiate emulazioni analogiche. Questi offrono un assaggio del loro
+    suono del sintetizzatore vintage meticolosamente modellato.
 - name: Vaults
   author: The Crow Hill Company
   type: Samples
@@ -343,6 +439,10 @@
     characterful sound libraries, offering an inspiring selection of organic and processed
     sounds.
   description_it: Strumento plugin gratuito in evoluzione.
+  detailed_description_it: Vaults di The Crow Hill Company è uno strumento plugin
+    gratuito in evoluzione. Funge da lettore dedicato per una raccolta in crescita
+    di librerie di suoni uniche e di carattere, offrendo una selezione stimolante
+    di suoni organici ed elaborati.
 - name: Neural Amp Modeler
   author: Neural Amp Modeler
   type: Effects
@@ -358,6 +458,10 @@
     It offers arguably the most realistic amp tones available in software, completely
     free.
   description_it: Modellatore di amplificatori open-source.
+  detailed_description_it: Neural Amp Modeler (NAM) è un progetto open source che
+    utilizza il deep learning per creare modelli incredibilmente accurati di amplificatori
+    per chitarra e pedali. Offre probabilmente i toni di amplificatore più realistici
+    disponibili nel software, in modo completamente gratuito.
 - name: AudioKit Synth One
   author: AudioKit Pro
   type: Synth
@@ -370,6 +474,9 @@
     professional iOS synthesizer. Created by over 100 volunteers, it features over
     300 presets, a 16-step sequencer, and warm analog-style oscillators.
   description_it: Sintetizzatore per iPad completamente gratuito e open-source.
+  detailed_description_it: AudioKit Synth One è un sintetizzatore iOS professionale
+    completamente gratuito e completamente open source. Creato da oltre 100 volontari,
+    offre oltre 300 preset, un sequencer a 16 step e caldi oscillatori in stile analogico.
 - name: RoughRider 3
   author: Audio Damage
   type: Effects
@@ -385,6 +492,10 @@
     of free plugins. It's a heavily colored compressor with a distinct vintage bite,
     perfect for adding punch and attitude to drums, bass, and synth lines.
   description_it: Uno dei plugin compressori gratuiti più popolari al mondo.
+  detailed_description_it: RoughRider 3 di Audio Damage è un classico moderno nel
+    mondo dei plugin gratuiti. È un compressore pesantemente colorato con una netta
+    vibrazione vintage, perfetto per aggiungere punch e carattere a batteria, basso
+    e linee di synth.
 - name: Chow Tape Model
   author: Chowdhury DSP
   type: Effects
@@ -401,6 +512,10 @@
     analog warmth, or pushed hard to create extreme tape saturation, wow, and flutter
     effects.
   description_it: Modellazione fisica di una macchina a nastro analogica.
+  detailed_description_it: Chow Tape Model è un'emulazione a modelli fisici di un
+    registratore a nastro analogico. Originariamente basato sul Sony TC-260, può essere
+    utilizzato per aggiungere calore analogico sottile o spinto al massimo per creare
+    effetti estremi di saturazione del nastro, wow e flutter.
 - name: Moon Echo
   author: AudioThing
   type: Effects
@@ -415,6 +530,10 @@
     communication technique of Earth-Moon-Earth (moon bounce). It offers unique, atmospheric
     delays with a built-in ping-pong mode and characterful lo-fi degradation.
   description_it: Plugin delay sperimentale e moon bounce gratuito.
+  detailed_description_it: Moon Echo è un plugin di delay gratuito ispirato alla tecnica
+    di comunicazione sperimentale Earth-Moon-Earth (moon bounce). Offre delay unici
+    e suggestivi con una modalità ping-pong integrata e un degrado lo-fi pieno di
+    carattere.
 - name: Sting 2
   author: Iftah
   type: Synth
@@ -428,3 +547,7 @@
     sequencer. It's designed for live improvisation, allowing you to generate and
     mutate classic 303-style acid sequences on the fly using a unique, intuitive interface.
   description_it: Sequencer per performance di linee acid Max for Live espressivo.
+  detailed_description_it: Sting 2 di Iftah è un sequencer per performance di linee
+    acid Max for Live espressivo. È progettato per l'improvvisazione dal vivo, consentendoti
+    di generare e mutare classiche sequenze acid in stile 303 al volo utilizzando
+    un'interfaccia unica e intuitiva.

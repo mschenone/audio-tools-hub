@@ -1,13 +1,13 @@
 ---
 permalink: /
 page_id: index
-lang: en
+lang: it
 layout: default
-title: Audio Tools Hub
+title: Hub Strumenti Audio
 ---
 
 <div class="search-container">
-  <input type="text" id="searchInput" placeholder="Search for plugins, authors, or keywords...">
+  <input type="text" id="searchInput" placeholder="Cerca plugin, autori o parole chiave...">
 </div>
 
 <div id="pluginsContainer">
@@ -18,7 +18,7 @@ title: Audio Tools Hub
   <h3>{{ type_group.name }}</h3>
   <div class="plugin-grid">
   {% for plugin in type_group.items %}
-    <div class="plugin-card" data-search-text="{{ plugin.name | downcase }} {{ plugin.author | downcase }} {{ plugin.description | downcase }} {{ type_group.name | downcase }} {{ plugin.price | downcase }}">
+    <div class="plugin-card" data-search-text="{{ plugin.name | downcase }} {{ plugin.author | downcase }} {{ plugin.description_it | downcase }} {{ type_group.name | downcase }} {{ plugin.price | downcase }}">
       <div>
         <span class="plugin-type-badge">{{ type_group.name }}</span>
         {% if plugin.price %}
@@ -26,9 +26,9 @@ title: Audio Tools Hub
         {% endif %}
       </div>
       <div class="plugin-title">{{ plugin.name }}</div>
-      <div class="plugin-author">by {{ plugin.author }}</div>
-      <p class="plugin-desc">{{ plugin.description }}</p>
-      <a href="plugin.html?name={{ plugin.name | url_encode }}" class="btn-download">View Plugin</a>
+      <div class="plugin-author">di {{ plugin.author }}</div>
+      <p class="plugin-desc">{{ plugin.description_it | default: plugin.description }}</p>
+      <a href="plugin.html?name={{ plugin.name | url_encode }}" class="btn-download">Vedi Plugin</a>
     </div>
   {% endfor %}
   </div>
@@ -37,10 +37,10 @@ title: Audio Tools Hub
 </div>
 
 <div class="contribute-section" style="margin-top: 3rem; padding: 1.5rem; background-color: var(--card-bg); border: 1px solid var(--card-border); border-radius: 8px; text-align: center;">
-  <h3>🤝 Help Us Grow</h3>
-  <p>Notice a broken link or know of a great free plugin that's missing from the list?</p>
-  <p>Contributions are extremely welcome! You can help keep this directory up-to-date by submitting a Pull Request or opening an Issue on our GitHub repository to add new plugins or fix URLs.</p>
-  <a href="https://github.com/mschenone/audio-tools-hub" class="btn-download" target="_blank" rel="noopener noreferrer" style="background-color: #333;">Contribute on GitHub</a>
+  <h3>🤝 Aiutaci a Crescere</h3>
+  <p>Hai notato un link interrotto o conosci un fantastico plugin gratuito che manca dall'elenco?</p>
+  <p>I contributi sono estremamente benvenuti! Puoi aiutare a mantenere aggiornata questa directory inviando una Pull Request o aprendo un'Issue sul nostro repository GitHub per aggiungere nuovi plugin o correggere gli URL.</p>
+  <a href="https://github.com/mschenone/audio-tools-hub" class="btn-download" target="_blank" rel="noopener noreferrer" style="background-color: #333;">Contribuisci su GitHub</a>
 </div>
 
 <script>

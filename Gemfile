@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "jekyll-sass-converter", "~> 2.2"
+gem "jekyll-sass-converter", "~> 3.0"
 gem "webrick"
 gem "ffi", "~> 1.17.0"
 gem "eventmachine", "1.2.7"

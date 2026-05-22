@@ -428,14 +428,3 @@
     sequencer. It's designed for live improvisation, allowing you to generate and
     mutate classic 303-style acid sequences on the fly using a unique, intuitive interface.
   description_it: Sequencer per performance di linee acid Max for Live espressivo.
-- name: BattleFX
-  author: Unfiltered Audio
-  type: Effects
-  url: https://www.unfilteredaudio.com/products/battlefx
-  description: Dedicated plugin for the send effects in Battalion.
-  os:
-  - Windows
-  - macOS
-  price: free
-  detailed_description: BattleFX is a dedicated plugin for the send effects in Battalion. It features the "Shatter Delay" and "Headspace Reverb", a fully-featured set of mix controls, and the Maximize and EQ section from the Master portion of Battalion. It includes a system for automatically choking the delay and reverb buffers at repeating intervals.
-  description_it: Plugin dedicato per gli effetti in mandata (send) in Battalion.

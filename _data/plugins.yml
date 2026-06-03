@@ -598,3 +598,15 @@
   - Windows
   - macOS
   price: freemium
+
+- name: Volca Keys Emulator
+  author: VolcaShare
+  type: Synth
+  url: https://volcashare.com/keys/emulator
+  description: A fan-made web emulator of the Korg Volca Keys analogue loop synth.
+  os:
+  - Web
+  price: free
+  detailed_description: This is a fan-made, browser-based emulator of the Korg Volca Keys. It features an on-screen keyboard, MIDI input support, and the ability to save and share patches via permalinks. While it doesn't replace the real hardware by Korg, it's a fun and accessible way to explore the synthesis architecture of this popular analogue loop synth directly in your web browser.
+  description_it: Un emulatore web creato dai fan del sintetizzatore analogico Korg Volca Keys.
+  detailed_description_it: Questo è un emulatore basato su browser del Korg Volca Keys, creato dai fan. Dispone di una tastiera su schermo, supporto per l'input MIDI e la possibilità di salvare e condividere le patch tramite permalink. Anche se non sostituisce l'hardware reale della Korg, è un modo divertente e accessibile per esplorare l'architettura di sintesi di questo popolare synth analogico direttamente nel tuo browser web.
